@@ -1,0 +1,11 @@
+name: cloud
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v6.0.2
+      - name: Run Teses
+        run: echo "Testing APP"
+       
+      
