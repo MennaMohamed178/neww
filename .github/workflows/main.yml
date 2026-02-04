@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v6.0.2
-      - name: Run Teses
+      - uses: actions/checkout@v6.0.2
+      - name: Run Tests
         run: cat "neww"
         
         
